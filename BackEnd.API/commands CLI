@@ -5,5 +5,5 @@
 5- dotnet ef --startup-project ../WebApi migrations remove  -c ApplicationDbContext
 6-dotnet ef --startup-project ../WebApi migrations database update -c ApplicationDbContext
 7-dotnet ef --startup-project ../WebApi migrations add name -c ApplicationDbContext
-8-set A    SPNETCORE_ENVIRONMENT=Production 
+8-set A    SPNETCORE_ENVIRONMENT=Production  g
 
